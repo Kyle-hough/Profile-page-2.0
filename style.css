@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+
+}
+.header-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.profile h1,
+.profile a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    color: white;
+}
+.button {
+    background-color: #17a2b8;
+    color: white;
+    border: 2px solid black;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 1000px;
+}
+.col-2 {
+    flex: 2;
+    margin: 20px 10px 20px 0px;
+}
+
+.user-card {
+    background-color: white;
+    border: 4px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 4px 4px lightgray;
+}
+.card-header{
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+    border-bottom: 4px solid #999;
+}
+.card-body{
+    padding: 10px;
+}
+.card-body h1,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+.user-circle{
+    border-radius: 50%;
+    background-color: white;
+    height: 150px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 4px solid #999;
+}
+.marker{
+    height: 20px;
+    width: 15px;
+}
+.icon-s{
+    height: 20px;
+}
+
+.education-card{
+    background-color: white;
+    border: 4px solid #999;
+    font-size: 1.2rem;
+    font-family: 'Roboto' , sans-serif;
+    box-shadow: 4px 4px lightgray;
+}
+.education-header {
+    background-color: #333333;
+    height: 75px;
+    border-bottom: 4px solid #999;
+}
+.education-header h2{
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.education-body{
+    padding: 10px;
+}
+.education-body h3,
+.education-body p {
+    margin: 20px 0px;
+}
+
+.col-1 {
+    flex: 1;
+    margin: 20px 0px 20px 10px;
+}
+
+.request{
+    background-color: white;
+    border: 4px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 4px 4px lightgray;
+}
+.request-header{
+    background-color: #333333;
+    height: 75px;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: 4px solid #999;
+    padding: 20px;
+}
+.request-body{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.request-circle {
+    height: 75px;
+}
+.accept-circle,
+.close-circle {
+    height: 50px;
+
+}
+
+.Todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto' sans-serif;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.two-circle{
+    background-color: white;
+    color: #333333;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.connections-end{
+    border-top: 4px solid #999;
+    padding: 10px;
+}
